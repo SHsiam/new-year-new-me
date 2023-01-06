@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section Styles*/
+.header {
+    background-image: url(../images/banner/banner1.png);
+    height: 700px;
+}
+
+.banner {
+    text-align: right;
+    padding: 215px 100px 10px 900px;
+}
+
+.banner-title {
+
+    font-weight: 800px;
+    font-size: 65px;
+}
+
+.banner-subtitle {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.banner-button {
+    margin-top: 30px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    width: 160px;
+    height: 60px;
+}
+
+/* Main Section Styles*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* About Section Styles */
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about-info {
+    padding-left: 80px;
+}
+
+.about-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.about-subtitle {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.about-list {
+    color: #444343;
+}
+
+/* My plan section Styles */
+.my-plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.skills-container {
+    display: flex;
+    gap: 40px;
+    padding: 50px 100px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414
+}
+
+.skill-description{
+    color: #737272;
+}
