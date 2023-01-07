@@ -6,12 +6,12 @@
 /* Header Section Styles*/
 .header {
     background-image: url(../images/banner/banner1.png);
-    height: 700px;
+    height: 800px;
 }
 
 .banner {
     text-align: right;
-    padding: 215px 100px 10px 900px;
+    padding: 150px 100px 10px 800px;
 }
 
 .banner-title {
@@ -26,7 +26,7 @@
 }
 
 .banner-button {
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #F15B22;
     color: #FFFFFF;
     width: 160px;
