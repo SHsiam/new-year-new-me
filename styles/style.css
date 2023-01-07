@@ -31,6 +31,10 @@
     color: #FFFFFF;
     width: 160px;
     height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 /* Main Section Styles*/
@@ -69,6 +73,7 @@ main {
 
 /* My plan section Styles */
 .my-plan-title {
+    margin-top: 130px;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
@@ -76,6 +81,7 @@ main {
 }
 
 .skills-container {
+    margin-top: 55px;
     display: flex;
     gap: 40px;
     padding: 50px 100px;
@@ -87,6 +93,93 @@ main {
     color: #151414
 }
 
-.skill-description{
+.skill-description {
     color: #737272;
+}
+
+/* Call to action Button Styles */
+.call-to-action {
+    margin-top: 130px;
+    background: url(../images/watch.png);
+    height: 300px;
+}
+
+.gradient {
+    background-image: url(../images/gradient2.png);
+    height: 300px;
+}
+
+.call-to-action-title {
+    padding: 55px 615px 20px 64px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.call-to-action-button {
+    border: none;
+    margin-left: 64px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    width: 160px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* Contact Section Styles */
+.contact {
+    background: #151414;
+    display: flex;
+    height: 300px;
+    margin-top: 150px;
+    gap: 100px;
+    color: #F8F8F8;
+    padding: 130px 200px;
+}
+.contact a{
+    text-decoration: none;
+    margin:10px 10px 0px 0px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-description {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.section-sub-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+input{
+height: 30px;
+padding: 10px 50px;
+width: 100%;
+margin-top: 40px;
+margin-bottom: 20px;
+background-color: #151414;
+color: #F8F8F8;
+font-size: 20px;
+border: 2px solid #F8F8F8;
+border-radius: 5px;
+}
+.Subscribe-button{
+    border: none;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    width: 160px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
 }
